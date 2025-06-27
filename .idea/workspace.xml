@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/config/jackson/TSIDJacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/config/jackson/TSIDToStringSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/config/jpa/TSIDToLongJPAAttributeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/config/web/StringToTSIDWebConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/config/web/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/model/SensorOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/domain/model/SensorId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/domain/repository/SensorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/gradle_wrapper3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/classes/com.algaworks.algasensors.device.management.DeviceManagementApplicationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/classes/com.algaworks.algasensors.device.management.DeviceManagementApplicationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/classes/com.algaworks.algasensors.device.management.TSIDTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/classes/com.algaworks.algasensors.device.management.TSIDTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/packages/com.algaworks.algasensors.device.management.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/reports/tests/test/packages/com.algaworks.algasensors.device.management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/TEST-com.algaworks.algasensors.device.management.DeviceManagementApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/TEST-com.algaworks.algasensors.device.management.DeviceManagementApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/TEST-com.algaworks.algasensors.device.management.TSIDTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/TEST-com.algaworks.algasensors.device.management.TSIDTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/compileTransaction/stash-dir/SensorController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/model/SensorInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/model/SensorInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/domain/model/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/domain/model/Sensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/microservices/device-management">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservices/temperature-monitoring">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservices/temperature-processing">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/microservices/temperature-monitoring">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temperature-monitoring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temperature-monitoring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="temperature-monitoring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microservices/device-management" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LesleyDiniz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LesleyDiniz/ems-algasensors-meta.git&quot;,
+    &quot;accountId&quot;: &quot;757179e7-c043-4d87-befc-b0f1556a9008&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ydIncgiQplpNaA49Vze9Ym9Mmm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.device-management [:com.algaworks.algasensors.device.management.DeviceManagementApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.DeviceManagementApplication" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="" />
+      <created>1750158192875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750158192875</updated>
+    </task>
+    <servers />
+  </component>
+</project>
