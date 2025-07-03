@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="Gravação e consulta de sensores">
+    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="Consulta paginada">
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/device-management" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/resources/old_application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +132,39 @@
       <option name="project" value="LOCAL" />
       <updated>1751023323947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Consulta paginada">
+      <option name="closed" value="true" />
+      <created>1751372877183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751372877183</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Consulta paginada">
+      <option name="closed" value="true" />
+      <created>1751372897245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751372897245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Gravação e consulta de sensores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gravação e consulta de sensores" />
+    <MESSAGE value="Consulta paginada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consulta paginada" />
   </component>
 </project>
