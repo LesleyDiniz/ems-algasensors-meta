@@ -4,75 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="Alteração do application.properties para application.yml&#10;Adição das funcionalidades deletar e alterar Sensor">
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/config/jackson/TSIDJacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/config/jackson/TSIDToStringSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/config/jpa/TSIDToLongJPAAttributeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/config/web/StringToTSIDWebConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/config/web/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/controller/SensorMonitoringController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/controller/TemperatureLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/model/SensorMonitoringOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/model/TemperatureLogOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/model/SensorId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/model/SensorMonitoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/model/TemperatureLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/model/TemperatureLogId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/repository/SensorMonitoringRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/repository/TemperatureLogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/java/com/algaworks/algasensors/temperature/processing/api/config/web/StringToTSIDWebConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/java/com/algaworks/algasensors/temperature/processing/api/config/web/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/java/com/algaworks/algasensors/temperature/processing/api/controller/TemperatureProcessingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/java/com/algaworks/algasensors/temperature/processing/api/model/TemperatureLogOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/java/com/algaworks/algasensors/temperature/processing/common/IdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/java/com/algaworks/algasensors/temperature/processing/common/UUIDv7Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="Configuring temperature-processing application">
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/controller/SensorAlertController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/model/SensorAlertInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/model/SensorAlertOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/model/SensorAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/repository/SensorAlertRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/compileTransaction/stash-dir/SensorController.class.uniqueId0" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/compileTransaction/stash-dir/SensorController.class.uniqueId0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/model/SensorInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/model/SensorInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/domain/model/SensorId.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/domain/model/SensorId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/build/tmp/compileJava/compileTransaction/stash-dir/DataClass.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/runConfigurations/TemperatureProcessingApplication.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/runConfigurations/TemperatureProcessingApplication.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/temperature-processing/src/test/java/com/algaworks/algasensors/temperature/processing/UUIDv7Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-processing/src/test/java/com/algaworks/algasensors/temperature/processing/UUIDv7Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751541754628</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuring temperature-processing application">
+      <option name="closed" value="true" />
+      <created>1752578576209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1752578576209</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +206,7 @@
     <MESSAGE value="Gravação e consulta de sensores" />
     <MESSAGE value="Consulta paginada" />
     <MESSAGE value="Alteração do application.properties para application.yml&#10;Adição das funcionalidades deletar e alterar Sensor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração do application.properties para application.yml&#10;Adição das funcionalidades deletar e alterar Sensor" />
+    <MESSAGE value="Configuring temperature-processing application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuring temperature-processing application" />
   </component>
 </project>
