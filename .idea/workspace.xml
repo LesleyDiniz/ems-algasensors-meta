@@ -4,15 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="Configuring temperature-processing application">
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/controller/SensorAlertController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/model/SensorAlertInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/model/SensorAlertOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/model/SensorAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/domain/repository/SensorAlertRepository.java" afterDir="false" />
+    <list default="true" id="338a2dfe-1e1f-480e-84ca-3066e00a4425" name="Changes" comment="SensorAlert - adicionados: &#10;Entidade&#10;Repositorio&#10;Controlador">
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/client/SensorMonitoringClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/client/SensorMonitoringClientBadGatewayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/client/impl/SensorMonitoringClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/config/web/ApiExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/compileTransaction/stash-dir/SensorController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/device-management/src/main/java/com/algaworks/algasensors/device/management/api/controller/SensorController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/controller/SensorMonitoringController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/temperature-monitoring/src/main/java/com/algaworks/algasensors/temperature/monitoring/api/controller/SensorMonitoringController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +96,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microservices/temperature-monitoring" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/microservices/device-management" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -130,6 +149,13 @@
       <recent name="com.algaworks.algasensors.temperature.monitoring.api.model" />
       <recent name="com.algaworks.algasensors.temperature.monitoring.domain.model" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Application.TemperatureMonitoringApplication" />
   <component name="TaskManager">
@@ -188,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752578576209</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SensorAlert - adicionados: &#10;Entidade&#10;Repositorio&#10;Controlador">
+      <option name="closed" value="true" />
+      <created>1753355868563</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753355868563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +241,7 @@
     <MESSAGE value="Consulta paginada" />
     <MESSAGE value="Alteração do application.properties para application.yml&#10;Adição das funcionalidades deletar e alterar Sensor" />
     <MESSAGE value="Configuring temperature-processing application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuring temperature-processing application" />
+    <MESSAGE value="SensorAlert - adicionados: &#10;Entidade&#10;Repositorio&#10;Controlador" />
+    <option name="LAST_COMMIT_MESSAGE" value="SensorAlert - adicionados: &#10;Entidade&#10;Repositorio&#10;Controlador" />
   </component>
 </project>
